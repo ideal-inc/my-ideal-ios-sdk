@@ -9,7 +9,7 @@ let package = Package(
     name: "MyIDEAL",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "MyIDEAL", targets: ["MyIDEALTargets"]),
+        .library(name: "MyIDEAL", targets: ["MyIDEALTarget"]),
     ],
     dependencies: [
         .package(url: "https://github.com/auth0/Auth0.swift", "2.8.0"..<"2.9.0"),
@@ -17,7 +17,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "MyIDEALTargets",
+            name: "MyIDEALTarget",
             dependencies: [
                 "MyIDEALBinary",
                 .product(name: "Auth0", package: "Auth0.swift"),
