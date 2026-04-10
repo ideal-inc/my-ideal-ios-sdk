@@ -2,7 +2,7 @@
 import PackageDescription
 
 let version = "2.0.0"
-let checksum = "3018b7980ee0a214a2a6a41b47bafd5e9d86f6dce1ec403f06c5c522aeb3f1f0"
+let checksum = "40fae263ab5d4aa83870a371d75d2d98a0856a7c61ee9ee56896ddbed42dd740"
 let url = "https://d3s5ffku8vii2e.cloudfront.net/v\(version)/MyIDEAL.xcframework.zip"
 
 let package = Package(
