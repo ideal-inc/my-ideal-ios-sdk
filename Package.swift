@@ -25,9 +25,10 @@ let package = Package(
             ],
             path: "Sources/MyIDEAL",
             resources: [
-                .copy("Resources/MyIDEALAssets.bundle"),
-                .copy("Resources/MyIDEALAnimations.bundle"),
-                .copy("Resources/PrivacyInfo.xcprivacy"),
+                .process("Resources/Icons.xcassets"),
+                .process("Resources/Images.xcassets"),
+                .process("Resources/Animations"),
+                .process("Resources/PrivacyInfo.xcprivacy"),
             ]
         ),
         .binaryTarget(
