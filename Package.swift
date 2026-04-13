@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/auth0/Auth0.swift", "2.8.0"..<"2.9.0"),
-        .package(url: "https://github.com/airbnb/lottie-ios", from: "4.3.0"),
+        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.3.0"),
     ],
     targets: [
         .target(
@@ -21,7 +21,7 @@ let package = Package(
             dependencies: [
                 "MyIDEALBinary",
                 .product(name: "Auth0", package: "Auth0.swift"),
-                .product(name: "Lottie", package: "lottie-ios"),
+                .product(name: "Lottie", package: "lottie-spm"),
             ],
             path: "Sources/MyIDEAL",
             resources: [
