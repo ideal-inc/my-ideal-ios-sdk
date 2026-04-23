@@ -7,12 +7,12 @@ let url = "https://d3s5ffku8vii2e.cloudfront.net/v\(version)/MyIDEAL.xcframework
 
 let package = Package(
     name: "MyIDEAL",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v14)],
     products: [
         .library(name: "MyIDEAL", targets: ["MyIDEALTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/auth0/Auth0.swift", "2.8.0"..<"2.9.0"),
+        .package(url: "https://github.com/auth0/Auth0.swift", from: "2.9.0"),
         .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.3.0"),
     ],
     targets: [
