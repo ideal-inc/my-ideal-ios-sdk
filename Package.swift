@@ -7,7 +7,7 @@ let url = "https://d3s5ffku8vii2e.cloudfront.net/v\(version)/MyIDEAL.xcframework
 
 let package = Package(
     name: "MyIDEAL",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v14)],
     products: [
         .library(name: "MyIDEAL", targets: ["MyIDEALTarget"]),
     ],
