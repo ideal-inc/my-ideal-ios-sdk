@@ -12,8 +12,8 @@ let package = Package(
         .library(name: "MyIDEAL", targets: ["MyIDEALTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/auth0/Auth0.swift", "2.8.0"..<"2.9.0"),
-        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.3.0"),
+        .package(url: "https://github.com/auth0/Auth0.swift", "2.22.0"..<"3.0.0"),
+        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.3.2"),
     ],
     targets: [
         .target(
