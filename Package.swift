@@ -1,8 +1,8 @@
 // swift-tools-version: 5.9
 import PackageDescription
 
-let version = "4.0.0"
-let checksum = "70467d3f113b29b30e4003c4687132de4720274d49e616f3bc2245e8adf9e80f"
+let version = "4.0.1"
+let checksum = "44b2f5086b879d09d2d2ec473e77539bb063bf6e36d424c0430a9406bf6c10ad"
 let url = "https://d3s5ffku8vii2e.cloudfront.net/v\(version)/MyIDEAL.xcframework.zip"
 
 let package = Package(
